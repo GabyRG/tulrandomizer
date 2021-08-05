@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body{
+    background-color: #bbf;
+    text-align: center;
+}
+
+h1{
+    display: none;
+    /*margin: 30px 0;
+    color: #3311ff;
+    font-size: 2.5em;*/
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.belts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+.gups{
+    margin: 0px 10px;
+}
+
+.dan{
+    margin: 0px 10px;
+}
+
+.belts__item{
+    min-width: 210px;
+    height: 70px;
+    margin: 10px 0px;
+    display: flex;
+}
+
+.belts__item:hover{
+    position: relative;
+    bottom: 7px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.belts__item-large{
+    width: 70%;
+    height: 100%;
+}
+
+.belts__item-small{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    background-color: #fff;
+}
+
+.yellow{
+    background-color: #ecec00;
+}
+
+.green{
+    background-color: #00cc00;
+}
+
+.blue{
+    background-color: #0000cc;
+}
+
+.red{
+    background-color: #cc0000;
+}
+
+.black{
+    background-color: #000;
+}
+
+.degree{
+    color: #ffcc00;
+    font-size: 2em;
+}
+
+.interaction{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+button{
+    background-color: #000;
+    border: solid #ffcc00 3px;
+    font-size: 1.5em;
+    padding: 10px;
+    color: #ffcc00;
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}

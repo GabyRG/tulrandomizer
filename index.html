@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tul Randomizer</title>
+</head>
+<body>
+    <h1>Tul Randomizer</h1>
+    <div class="container">
+        <div class="belts">
+            <div class="gups">
+                <div class="belts__item" id="gup9" onclick="selCategoria(1)">
+                    <div class="belts__item-large white"></div>
+                    <div class="belts__item-small yellow"></div>
+                </div>
+                <div class="belts__item" id="gup8" onclick="selCategoria(2)">
+                    <div class="belts__item-large yellow"></div>
+                    <div class="belts__item-small yellow"></div>
+                </div>
+                <div class="belts__item" id="gup7" onclick="selCategoria(3)">
+                    <div class="belts__item-large yellow"></div>
+                    <div class="belts__item-small green"></div>
+                </div>
+                <div class="belts__item" id="gup6" onclick="selCategoria(4)">
+                    <div class="belts__item-large green"></div>
+                    <div class="belts__item-small green"></div>
+                </div>
+                <div class="belts__item" id="gup5" onclick="selCategoria(5)">
+                    <div class="belts__item-large green"></div>
+                    <div class="belts__item-small blue"></div>
+                </div>
+                <div class="belts__item" id="gup4" onclick="selCategoria(6)">
+                    <div class="belts__item-large blue"></div>
+                    <div class="belts__item-small blue"></div>
+                </div>
+                <div class="belts__item" id="gup3" onclick="selCategoria(7)">
+                    <div class="belts__item-large blue"></div>
+                    <div class="belts__item-small red"></div>
+                </div>
+                <div class="belts__item" id="gup2" onclick="selCategoria(8)">
+                    <div class="belts__item-large red"></div>
+                    <div class="belts__item-small red"></div>
+                </div>
+                <div class="belts__item" id="gup1" onclick="selCategoria(9)">
+                    <div class="belts__item-large red"></div>
+                    <div class="belts__item-small black"></div>
+                </div>
+            </div>
+
+            <div class="dan">
+                <div class="belts__item" id="dan1" onclick="selCategoria(12)">
+                    <div class="belts__item-large black"></div>
+                    <div class="belts__item-small black"><h6 class="degree">I</h6></div>
+                </div>
+                <div class="belts__item" id="dan2" onclick="selCategoria(15)">
+                    <div class="belts__item-large black"></div>
+                    <div class="belts__item-small black"><h6 class="degree">II</h6></div>
+                </div>
+                <div class="belts__item" id="dan3" onclick="selCategoria(18)">
+                    <div class="belts__item-large black"></div>
+                    <div class="belts__item-small black"><h6 class="degree">III</h6></div>
+                </div>
+                <div class="belts__item" id="dan4" onclick="selCategoria(21)">
+                    <div class="belts__item-large black"></div>
+                    <div class="belts__item-small black"><h6 class="degree">IV</h6></div>
+                </div>
+                <div class="belts__item" id="dan5" onclick="selCategoria(23)">
+                    <div class="belts__item-large black"></div>
+                    <div class="belts__item-small black"><h6 class="degree">V</h6></div>
+                </div>
+                <div class="belts__item" id="dan6" onclick="selCategoria(24)">
+                    <div class="belts__item-large black"></div>
+                    <div class="belts__item-small black"><h6 class="degree">VI</h6></div>
+                </div>
+            </div>
+        </div>
+        <div class="interaction">
+            <h2 id="textoCategoria">Categoria:</h2>
+            <button onclick="randomTul()">Random</button>
+            <h2 id="textoTul">Tul seleccionado:</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
